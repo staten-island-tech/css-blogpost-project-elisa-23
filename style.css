@@ -37,7 +37,7 @@ body {
 .blog-title {
     font-size: 30px;
     font-family: "Zeyada", cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     margin-top: 18px;
     margin-bottom: -7px;
@@ -65,4 +65,13 @@ body {
 
 .blog-disc {
     font-size: 15px;
+}
+
+.blog-marquee {
+    font-size: 25px;
+    color: antiquewhite;
+    margin-top: 70px;
+    margin-left: -70px;
+    margin-right: -70px;
+    border: 3px solid rosybrown;
 }
