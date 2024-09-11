@@ -1,10 +1,10 @@
 body {
-    background-color: darkmagenta;
+    background-image: url(img/background.png);
     /* change to image later */
 }
 
-.blog-listings {
-    background-color: rgba(37, 18, 50, 0.625);
+#blog-listings {
+    background-color: rgba(37, 18, 50, 0.925);
     width: auto;
     height: auto;
     margin-top: 0 auto;
@@ -12,7 +12,7 @@ body {
 
 }
 
-.blog-name {
+#blog-name {
     color: antiquewhite;
     text-align: center;
     font-size: 120px;
@@ -35,7 +35,12 @@ body {
 }
 
 .blog-title {
-    font-size: 20px;
+    font-size: 30px;
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+    margin-bottom: -7px;
 }
 
 .blog-img {
@@ -52,7 +57,7 @@ body {
     font-style: oblique;
 }
 
-.blog-logo {
+#blog-logo {
     display: block;
     margin: 0 auto;
     width: 150px;
