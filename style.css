@@ -1,24 +1,63 @@
 body {
-    background-image: ;
+    background-color: darkmagenta;
+    /* change to image later */
 }
 
 .blog-listings {
-    background-color: rgb(135, 50, 96);
-    width: max-content;
-    height: 1000px;
-    margin: 0 auto;
+    background-color: rgba(37, 18, 50, 0.625);
+    width: auto;
+    height: auto;
+    margin-top: 0 auto;
+    padding: 50px;
 
 }
 
 .blog-name {
     color: antiquewhite;
-    font-size: large;
     text-align: center;
+    font-size: 120px;
+    height: 100px;
+    margin-top: -10px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;
 }
 
 .blog-post {
     background-color: rgb(228, 189, 120);
-    border: 3px solid rgb(145, 106, 65);
+    border: 5px solid rgb(145, 106, 65);
     margin: 0 auto;
+    margin-top: 100px;
+    width: 60%;
+    padding: 20px;
+    text-align: justify;
+}
 
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-img {
+    object-fit: cover;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    width: 834px;
+    height: 40%;
+}
+
+.blog-link {
+    color: rgb(26, 12, 48);
+    font-style: oblique;
+}
+
+.blog-logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.blog-disc {
+    font-size: 15px;
 }
