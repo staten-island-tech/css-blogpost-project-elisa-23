@@ -1,11 +1,11 @@
 body {
-    background-image: linear-gradient(rgba(222, 174, 242, 0.51), url(img/background.png));
+    background-image: linear-gradient(0deg, rgba(222, 174, 242, 0.51), rgba(239, 231, 176, 0.441)), url(img/background.png);
 
     /* change to image later */
 }
 
 #blog-listings {
-    background-color: rgba(37, 18, 50, 0.925);
+    background-color: rgba(37, 18, 50, 0.669);
     width: auto;
     height: auto;
     margin-top: 0 auto;
@@ -14,7 +14,7 @@ body {
 }
 
 #blog-name {
-    color: antiquewhite;
+    color: rgb(44, 6, 66);
     text-align: center;
     font-size: 120px;
     height: 100px;
